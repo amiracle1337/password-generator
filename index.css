@@ -1,0 +1,90 @@
+body {
+    background-color: #ECECEC;
+    margin-top: 50px;
+    max-width: 550px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card {
+    background-color: white;
+    padding: 20px 40px;
+    height: 400px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+
+.hero-headline {
+    font-family: montserrat;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-subheadline {
+    font-family: montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -45px;
+    color: #066ff6;
+}
+
+.hero-paragraph {
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -20px;
+    color: #737373
+}
+
+.password-button {
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    width: 200px;
+    height: 45px;
+    background-color: #066ff6;
+    color: white;
+    font-family: montserrat;
+    box-shadow: 1px 1px 10px 1px #6DB6FF
+}
+
+.password-button:hover {
+    background-color: #2681F9
+}
+
+.section-border {
+    margin-top: 40px;
+    border: solid 1px #ECECEC;
+    box-shadow: 0px 0px 1px 0px #ECECEC;
+}
+
+.password-container {
+    margin-top: 25px;
+    display: flex;
+
+}
+
+.pass-output-one, .pass-output-two {
+    background-color: #ECECEC;
+    width: 220px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat;
+    font-weight: 300;
+    color: #3E3E3E;
+}
+
+.pass-output-two {
+ margin-left: 50px;
+}
+
+.pass-output-one:hover, .pass-output-two:hover {
+    background-color: #F4F4F4;
+}
+
